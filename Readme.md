@@ -1,4 +1,4 @@
-# Jiro Ticketing System
+# Ticketing System
 
 A secure, role-based ticketing system built for small teams (3-4 people). Features JWT authentication, RBAC middleware, and audit logging.
 
