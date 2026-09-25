@@ -5,12 +5,10 @@ const PORT = 3000;
 
 app.use(express.json());
 
-// Test health check
 app.get('/api/health', (req, res) => {
   res.json({ status: 'Server is running' });
 });
 
-// Test database connection
 app.get('/api/db-test', async (req, res) => {
   try {
     const result = await pool.query('SELECT NOW()');
